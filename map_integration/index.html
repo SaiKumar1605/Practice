@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Event Click LatLng</title>
+  <script src="maps1.js"></script>
+  <!-- jsFiddle will insert css and js -->
+
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script type="module" src="./index.js"></script>
+
+</head>
+
+<body>
+  <!-- <div id="map"></div> -->
+
+  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" async></script>
+
+  <div>
+      <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" async></script>
+    <input type="text" name="lat" id="rlat"> 
+    <input type="text" name="lng" id="rlng">  
+    <button onclick="myFunction()"> Select Location</button>
+    <!--<button onclick="pithre()">Select Location</button>-->
+  </div>
+
+  <div id="myDIV" style="display: none;">
+    This is my DIV element.
+    <div id="map"></div> 
+  </div>
+
+  <div>
+      <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" async></script>
+    <input type="text" name="lat" id="rlat"> 
+    <input type="text" name="lng" id="rlng">  
+    <button onclick="myFunction1()"> Select Location</button>
+    <!--<button onclick="pithre()">Select Location</button>-->
+  </div>
+   <div id="myDIV1" style="display: none;">
+    This is my DIV1 element.
+    <div id="map"></div> 
+  </div>
+
+</body>
+
+</html>

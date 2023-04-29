@@ -1,0 +1,38 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+       #map {
+        position: relative;
+        left: 50px;
+        border: 15px solid #73AD21;
+        height: 70%;
+        width: 70%;
+      }
+      
+      #myDIV {
+        height: 50%;
+        width: 50%;
+        padding: 0px 0;
+        text-align: center;
+        background-color: rgb(230, 237, 240);
+        margin-top: 20px;
+      }
+
+      #myDIV1 {
+
+        height: 50%;
+        width: 50%;
+        padding: 0px 0;
+        text-align: center;
+        background-color: rgb(230, 237, 240);
+        margin-top: 20px;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
