@@ -8,6 +8,14 @@
         height: 70%;
         width: 70%;
       }
+
+      #map2 {
+        position: relative;
+        left: 50px;
+        border: 15px solid #73AD21;
+        height: 70%;
+        width: 70%;
+      }
       
       #myDIV {
         height: 50%;
@@ -18,7 +26,7 @@
         margin-top: 20px;
       }
 
-      #myDIV1 {
+      #myDIVd {
 
         height: 50%;
         width: 50%;
